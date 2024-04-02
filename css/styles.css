@@ -1,0 +1,526 @@
+/*********************************YAGO-ART**************************************
+
+    Creator:        Yann Gouffon
+    green-yago:     #b1de26
+
+********************************************************************************/
+
+* {
+    margin:0;
+    padding:0;
+    font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+
+body{
+    background: #fff;
+}
+
+#general {
+    background-image: url('../images/backgroundTop.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 1px;
+    position: relative;
+}
+
+#clearer {
+    clear: both;
+    line-height: 0;
+}
+
+/*HEADER************************************************************************/
+
+
+#header {
+    width: 898px;
+    margin: 0 auto;
+}
+
+#logoYago {
+    margin-top: -84px;
+    width: 151px;
+    float: left;
+}
+
+#logoYago a img {
+    border: none;
+}
+
+#menu {
+    width: 708px;
+    background-repeat: no-repeat;
+    margin-left: 171px;
+    margin-top: 185px;
+    position: relative;
+}
+
+#menu ul {
+    margin-left: 2px;
+}
+
+.boutonPrinc {
+    width: 116px;
+    display: inline;
+    float: left;
+    margin-top: 15px;
+    margin-right: 1px;
+    position: relative;
+}
+
+.menuLiens {
+    width: 116px;
+    height: 32px;
+    display: block;
+}
+
+.boutonSec {
+    position: absolute;
+}
+
+.boutonSec a {
+    display: block;
+    color: #222;
+    background: url('../images/fondBlanc.png') repeat;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 116px;
+    padding: 5px 0;
+}
+
+.boutonSec a:hover {
+    color: #ddd;
+    background: url('../images/fondNoir.png') repeat;
+}
+
+.clearer {
+    clear: both;
+    line-height: 0;
+}
+
+.photoOn {
+    background-image: url('../images/photo_on.jpg');
+    background-repeat: no-repeat;
+}
+
+.photoOff {
+    background-image: url('../images/photo_off.jpg');
+    background-repeat: no-repeat;
+}
+
+.graphicOn {
+    background-image: url('../images/graphic_on.jpg');
+    background-repeat: no-repeat;
+}
+
+.dimensionOn {
+    background-image: url('../images/3d_on.jpg');
+    background-repeat: no-repeat;
+}
+
+.dessinOn {
+    background-image: url('../images/dessin_on.jpg');
+    background-repeat: no-repeat;
+}
+
+.videoOn {
+    background-image: url('../images/video_on.jpg');
+    background-repeat: no-repeat;
+}
+
+.cvOn {
+    background-image: url('../images/cv_on.jpg');
+    background-repeat: no-repeat;
+}
+
+#menu span {
+    position: absolute;
+    top: 0;
+}
+
+
+/*CONTENT***********************************************************************/
+
+
+#content {
+    background-image: url('../images/borderCenter.jpg');
+    background-position: top center;
+    background-repeat: repeat-y;
+    margin-top: -20px;
+    min-height: 150px;
+}
+
+#sousContent {
+    background-image: url('../images/borderCenter_on.png');
+    background-position: top center;
+    background-repeat: repeat-y;
+    min-height: 150px;
+    margin-left: 2px;
+    padding-left: 9px;
+}
+
+#sousContent #contenuPhoto a img {
+    border: none;
+}
+
+#contenuText {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    width: 790px;
+    border-bottom: 1px solid #000;
+}
+
+#contenuText a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+#lanfeust {
+    margin-left: 10px;
+}
+
+.textContent {
+    margin: 20px 138px 20px 171px;
+}
+
+#videoYoutube {
+    margin-left: 95px;
+}
+
+#borderTop {
+    width: 1200px;
+    background-image: url('../images/borderTop.jpg');
+    background-repeat: no-repeat;
+    height: 99px;
+    background-position: center;
+    margin-top: 46px;
+}
+
+#borderTop img {
+    margin-top: 59px;
+    margin-left: 152px;
+}
+
+#borderBottom {
+    width: 1200px;
+    background-image: url('../images/borderBottom.jpg');
+    height: 166px;
+    background-position: top center;
+}
+
+#borderBottom img {
+    margin-left: 152px;
+}
+
+
+/*NEWS**************************************************************************/
+
+
+#news {
+    margin-left: 10px;
+    background: #ccc;
+    color: #111;
+    width: 790px;
+    padding: 20px 0;
+    border: 1px solid #fff;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+h2 {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#sousNews {
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+#news span {
+    float: right;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 14px;
+    border-bottom: 1px solid #000;
+}
+
+#when {
+    font-size: 11px;
+    font-style: italic;
+    margin: 2px 0 10px 0;
+}
+
+.article {
+    margin-bottom: 50px;
+}
+
+
+/*FEATURE LIST******************************************************************/
+
+
+div#feature_list {
+        width: 898px;
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+        margin-left: 151px;
+}
+
+div#feature_list ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+}
+
+#first {
+        margin-top: 13px;
+}
+
+ul#tabs {
+        position: relative;
+        left: 150px;
+        top: 265px;
+        z-index: 5;
+        width: 320px;
+        height: 15px;
+}
+
+ul#tabs li {
+        font-size: 12px;
+        font-family: Arial;
+        display: inline;
+}
+
+ul#tabs li a {
+        background: #fff;
+        color: #222;
+        text-decoration: none;
+        display: block;
+        float: left;
+        height: 15px;
+        width: 15px;
+        outline: none;
+        margin-right: 10px;
+        border: 1px solid #000;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+}
+
+ul#tabs li a:hover {
+        text-decoration: underline;
+}
+
+ul#tabs li a.current {
+        background:  #000;
+        color: #fff;
+}
+
+ul#tabs li a.current:hover {
+        text-decoration: none;
+        cursor: default;
+}
+
+ul#output {
+        width: 898px;
+        height: 200px;
+        position: relative;
+        z-index: 3;
+}
+
+ul#output li {
+        position: absolute;
+        width: 463px;
+        height: 240px;
+        left: 149px;
+        top: 40px;
+}
+
+ul#output li a img {
+    border: 1px solid #000;
+}
+
+ul#output li .lienImage {
+        position: absolute;
+        bottom: 8px;
+        right: -139px;
+        padding: 20px 35px 8px 35px;
+        text-decoration: none;
+        font-size: 13px;
+        color: #000;
+        background: #fff;
+        border: 1px solid #000;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        z-index: -3;
+}
+
+ul#output li .lienImage:hover {
+        color: #FFF;
+        background: #000;
+}
+
+
+/*FANCY BOX*********************************************************************/
+
+
+#contenuPhoto {
+    width: 850px;
+    padding: 30px 25px;
+    margin-left: 160px;
+}
+
+#centerPic {
+    text-align: center;
+}
+
+.example_group {
+    display: block;
+    float: left;
+    margin: 5px 9px;
+}
+
+.example_group img {
+    border: 1px solid #000!important;
+}
+
+
+/*CV****************************************************************************/
+
+
+#cv1 {
+    font-weight: bold;
+    width: 130px;
+    float: left;
+    font-size: 13px;
+}
+
+#contenuPhoto p {
+    font-size: 14px;
+}
+
+#cv2 {
+    margin-left: 130px;
+    font-size: 13px;
+}
+
+#imageCv {
+    margin-left: 120px;
+    margin-bottom: 30px;
+}
+
+
+/*CONTACT***********************************************************************/
+
+
+#contact {
+    position: absolute;
+    bottom: 70px;
+    right: 162px;
+}
+
+#contact a {
+    display: block;
+    width: 35px;
+    height: 22px;
+    background-image: url('../images/mail.jpg');
+}
+
+#contact a:hover {
+    background-image: url('../images/mailHover.jpg');
+}
+
+#contact a img:hover {
+    opacity: 0;
+}
+
+#contact a img {
+    border: none;
+}
+
+#formulaireContact {
+    margin-left: 70px;
+    font-size: 14px;
+}
+
+fieldset {
+    border: 0px solid #150f0c;
+    padding: 10px 0;
+}
+
+.donnees label {
+    width: 200px;
+    display: block;
+    float: left;
+}
+
+label {
+    margin-left: 6px;
+}
+
+input {
+    margin: 4px 0;
+}
+
+.donnees input {
+    width: 250px;
+}
+
+#nom, #prenom {
+    width: 120px;
+}
+
+textarea {
+    width: 456px;
+    margin-left: 3px;
+    font-size: 14px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+#aConfirm {
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #222;
+}
+
+#aConfirm:hover {
+    color: #b1de26;
+}
+
+
+/*ERROR 404*********************************************************************/
+
+
+#errorGen {
+    background-image: url('../images/error.jpg');
+    background-position: top center;
+    width: 1200px;
+    min-height: 700px;
+    margin: 0 auto;
+}
+
+#error {
+    margin-left: 485px;
+}
+
+#error img {
+    margin-top: 85px;
+    border: none;
+}

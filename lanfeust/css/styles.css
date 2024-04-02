@@ -1,0 +1,494 @@
+* {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #202e38;
+}
+
+#degrade {
+	background-image: url('../images/fondDegrade.png');
+	background-repeat: repeat-y;
+	background-position: center;
+	width: 840px;
+	margin: 0 auto;
+}
+
+#principal {
+	background: #294152;
+	width: 800px;
+	margin: 0 auto;
+}
+
+h1 a img {
+	border-style: none;
+}
+
+h1 {
+	height: 199px;
+}
+
+
+/*LIENS*/
+
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#contenu .lienInfo {
+	font-size: 15px;
+	margin: 30px 0;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+}
+
+#telechargerCv {
+	display: block;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#telechargerCv:hover, #contenu a:hover, address a:hover {
+	color: #f86431;
+}
+
+
+/*NAVIGATION*/
+
+
+#menuDeroulant {
+	background: url('../images/fondNavig.jpg') repeat-x;
+	list-style-type: none;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#menuDeroulant li {
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+}
+
+#menuDeroulant .liensPrinc {
+	background: url('../images/fondNavig.jpg') repeat-x;
+	display: block;
+	width: 130px;
+	height: 30px;
+	padding: 6px 15px;
+}
+
+
+#menuDeroulant #lienActif {
+	background: url('../images/fondActif.jpg') repeat-x;
+}
+
+#menuDeroulant .liensPrinc:hover, #menuDeroulant #lienActif:hover {
+	background: url('../images/fondEvidence.jpg') repeat-x;
+	color: #000;
+}
+
+
+#menuDeroulant li ul {
+	background: url('../images/fondSousNavig.png');
+	font-size: 11px;
+	position: absolute;
+	z-index: 30;
+	top: 30px;
+}
+
+#menuDeroulant .sousMenu {
+	list-style-image: url('../images/puce.png')
+}
+
+#menuDeroulant .sousMenu li {
+	float: none;
+	text-align: left;
+	margin-left: 30px;
+	width: 120px;
+	padding: 10px 0 10px 10px;
+}
+
+#menuDeroulant .sousMenu li:hover {
+	background: url('../images/fondSousNavigEvidence.png') repeat-y;
+	background-position: right;
+}
+
+.sousMenu {
+	display: none;
+}
+
+#menuDeroulant li:hover > .sousMenu {
+	display: block;
+}
+
+
+/*CONTENU*/
+
+
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+
+p {
+	font-size: 12px;
+	margin: 10px 150px 10px 50px;
+}
+
+#contenu {
+	background: #536775;
+	color: #fff;
+	width: 700px;
+	margin:0 auto;
+	margin-top: 60px;
+	padding-top: 45px;
+	min-height: 400px;
+}
+
+#imageArticle {
+	text-align: right;
+	position: relative;
+	left: 50px;
+}
+
+#contenu a {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#voyageImages a img {
+	border-style: none;
+}
+
+#imageTroy {
+	margin-bottom: 40px;
+}
+
+#voyage #contenu {
+	padding: 0;
+	min-height: 0;
+	margin-bottom: 60px;
+}
+
+#cv #contenu {
+	padding: 0;
+}
+
+#copains #contenu img {
+	margin: 0 19.6px 30px 19.6px;
+	border-style: none;
+}
+
+#copains #contenu .imagesFin {
+	margin: 0 0 30px 106px;
+	border-style: none;
+	text-align: center;
+}
+
+#ennemis #contenu img{
+	margin: 0 19.6px 30px 19.6px;
+	border-style: none;
+}
+
+#imageBottom {
+	padding: 50px 0 15px 0;
+	text-align: center;
+}
+
+
+
+/*ADRESSE*/
+
+
+address {
+	background: #150f0c;
+	color: #fff;
+	font-style: normal;
+	font-size: 9px;
+	text-align: center;
+	padding: 2px 0 3px 0;
+}
+
+address a{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+
+/*CARTE TROY*/
+
+
+#carte #principal #contenu {
+	background-image: url('../voyages/images/carte.jpg');
+	background-repeat: no-repeat;
+	position: relative;
+	height: 454px;
+	margin-bottom: 60px;
+}
+
+#carte #contenu #nomLieux  img {
+	border: 0 solid #000;
+}
+
+#trace {
+	position: absolute;
+	bottom: 5px;
+}
+
+#carte #spacer {
+	line-height: 0;
+	clear: both;
+}
+
+#nomLieux {
+	position: relative;
+}
+
+#glinin {
+	position: absolute;
+	right: 270px;
+	top: 150px;
+}
+
+#jaclare {
+	position: absolute;
+	right: 170px;
+	top: 200px;
+}
+
+#eckmul {
+	position: absolute;
+	right: 160px;
+	top: 240px;
+}
+
+#ile {
+	position: absolute;
+	right: 290px;
+	top: 250px;
+}
+
+#cairn {
+	position: absolute;
+	right: 375px;
+	top: 115px;
+}
+
+#orazur {
+	position: absolute;
+	right: 385px;
+	top: 95px;
+}
+
+#culhaig {
+	position: absolute;
+	right: 255px;
+	top: 100px;
+}
+
+#sikhet {
+	position: absolute;
+	right: 390px;
+	top: 230px;
+}
+
+#xingdu {
+	position: absolute;
+	right: 500px;
+	top: 200px;
+}
+
+#palais {
+	position: absolute;
+	right: 430px;
+	top: 20px;
+}
+
+#glaces {
+	position: absolute;
+	right: 90px;
+	top: 10px;
+}
+
+#caravanes {
+	position: absolute;
+	right: 75px;
+	top: 40px;
+}
+
+#antogue {
+	position: absolute;
+	right: 0px;
+	top: 210px;
+}
+
+#magohamoth {
+	position: absolute;
+	right: 200px;
+	top: 405px;
+}
+
+
+/*CARTE ETOILES*/
+
+
+#star #contenu {
+	padding: 0;
+	margin-bottom: 60px;
+	position: relative;
+}
+
+#etoilesNoms a img {
+	border-style: none;
+}
+
+#abraxar {
+	position: absolute;
+	right:100px;
+	top: 100px;
+}
+
+#indy {
+	position: absolute;
+	right: 370px;
+	top: 150px;
+}
+
+#meirrion {
+	position: absolute;
+	right: 300px;
+	top: 310px;
+}
+
+#pathacelce {
+	position: absolute;
+	right: 20px;
+	top: 440px;
+}
+
+#station {
+	position: absolute;
+	right: 385px;
+	top: 440px;
+}
+
+
+/*FORMULAIRE*/
+
+
+#formulaire #contenu {
+	font-size: 12px;
+	padding-top: 0;
+	padding-top: 20px;
+	min-height: 1450px;
+}
+
+#consigne {
+	margin-left: 20px;
+	font-size: 10px;
+}
+
+fieldset {
+	border: 0px solid #150f0c;
+	margin: 20px; 
+	padding-top: 11px;
+}
+
+legend {
+	background: #150f0c;
+	font-weight: bold;
+	padding: 1px 6px 2px 6px;
+}
+
+.donnees label {
+	width: 200px;
+	display: block;
+	float: left;
+}
+
+label, #questionnaire input {
+	margin-left: 6px;
+}
+
+input, select {
+	margin: 2px 0;
+}
+
+.donnees input {
+	width: 250px;
+}
+
+#nom, #prenom {
+	width: 120px;
+}
+
+#rue, #ville {
+	width: 200px;
+}
+
+#num, #npa {
+	width: 40px;
+}
+
+#questionnaire label {
+	display: block;
+}
+
+.questions {
+	font-weight: bold;
+	display: block;
+	margin-top: 10px;
+}
+
+#questionnaire input {
+	margin-right: 10px;
+	margin-bottom: 3px;
+	width: 20px;
+	display: block;
+	float: left;
+}
+
+textarea {
+	margin: 5px 0 5px 6px;
+	width: 480px;
+	font-size: 12px;
+}
+
+#bouton input {
+	margin-right: 20px;
+}
+
+
+/*ERREUR 404*/
+
+
+#erreur #principal {
+	background: #294152 url('../images/404.png') no-repeat;
+	background-position: center center;
+	width: 800px;
+	min-height: 409px;
+	margin-top: 100px;
+}
+
+#erreur a {
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 13px;
+	position: relative;
+	top: 355px;
+	left: 24px;
+	margin-right: 30px;
+}
+
+#erreur a:hover {
+	color: #f86431;
+}

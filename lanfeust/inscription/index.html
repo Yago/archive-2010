@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Lanfeust - Inscription</title>
+<link href="../css/styles.css" rel="stylesheet" type="text/css" /> 
+<link rel="shortcut icon" type="image/x-icon" href="../images/puce.png" />
+</head>
+<body id="formulaire">
+<div id="degrade">
+<div id="principal">
+	<h1>
+		<a href="../index.html">
+		<img src="../images/banniere.jpg" alt="bannière du site avec Lanfeust écrit en jaune sur un fond de parchemin accompagné de son portrait" />
+		</a>
+	</h1>
+	<div id="navig">
+		<ul id="menuDeroulant">
+			<li>
+				<a href="../informations/index.html" class="liensPrinc">Informations</a>
+				<ul class="sousMenu">
+					<li class="marginTop"><a href="../informations/bio.html">Ma biographie</a></li>
+					<li><a href="../informations/capacites.html">Mes capacités</a></li>
+					<li><a href="../informations/cv.html">Mon CV</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="../copains/index.html" class="liensPrinc">Mes copains</a>
+				<ul class="sousMenu">
+					<li class="marginTop"><a href="../copains/hebus.html">Hébus</a></li>
+					<li><a href="../copains/cixi.html">Cixi</a></li>
+					<li><a href="../copains/cian.html">C'ian</a></li>
+					<li><a href="../copains/nicolede.html">Nicolède</a></li>
+					<li><a href="../copains/orazur.html">Or Azur</a></li>
+					<li><a href="../copains/sphax.html">Sphax</a></li>
+					<li><a href="../copains/swiip.html">Swiip</a></li>
+					<li><a href="../copains/qam.html">Qäm</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="../ennemis/index.html" class="liensPrinc">Mes ennemis</a>
+				<ul class="sousMenu">
+					<li class="marginTop"><a href="../ennemis/thanos.html">Thanos</a></li>
+					<li><a href="../ennemis/dheluu.html">Dheluu</a></li>
+					<li><a href="../ennemis/glace.html">Glace</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="../voyages/index.html" class="liensPrinc">Mes voyages</a>
+				<ul class="sousMenu">
+					<li class="marginTop"><a href="../voyages/troy.html">Troy</a></li>
+					<li><a href="../voyages/etoiles.html">Les étoiles</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="index.html" class="liensPrinc" id="lienActif">Inscription</a>
+			</li>
+		</ul>
+	</div>
+	<div id="contenu">
+		<form action="confirmation.html" method="post">
+			<div id="consigne">
+				<em>Veuillez remplir tous les champs.</em>
+			</div>
+			<fieldset class="donnees">
+				<legend>Coordonnées</legend>
+				<label for="titre">Titre</label>
+						<select name="titre" id="titre">
+							<option value="mmme">Mme.</option>
+							<option value="m">M.</option>
+						</select><br />
+				<label for="nom">Nom/Prénom</label>
+				<input type="text" name="nom" id="nom" />
+				<input type="text" name="prenom" id="prenom" /><br />
+				<label for="rue">Rue/n°</label>
+				<input type="text" name="rue" id="rue" />
+				<input type="text" name="n°" id="num" /><br />
+				<label for="npa">npa/ville</label>
+				<input type="text" name="npa" id="npa" />
+				<input type="text" name="ville" id="ville" /><br />
+				<label for="entreprise">Entreprise</label>
+				<input type="text" name="entreprise" id="entreprise" /><br />
+				<label for="email">Adresse E-mail</label>
+				<input type="text" name="email" id="email" />
+			</fieldset>
+			<fieldset class="donnees">
+				<legend>Capacitées</legend>
+				<label for="pouvoir">Pouvoir</label>
+				<input type="text" name="pouvoir" id="pouvoir" /><br />
+				<label for="profession">Profession</label>
+				<input type="text" name="profession" id="profession" /><br />
+				<label for="rang">Rang social</label>
+				<input type="text" name="rang" id="rang" /><br />
+				<label for="aptitudes">Aptitudes particulières</label>
+				<input type="text" name="aptitudes" id="aptitudes" /><br />
+			</fieldset>
+			<fieldset id="questionnaire">
+				<legend>Questionnaire</legend>
+				<label for="attitudes" class="questions">Vous voyagez en charmante compagnie quand soudain, des brigands vous attaques. Que faites-vous?</label><br />
+				<input type="radio" value="Je sors mon épée et me prépare au combat." name="attitude" id="attitudes" /><label for="attitudes">Je sors mon épée et me prépare au combat.</label><br />
+				<input type="radio" value="Je livre les donzelles en patture aux brigands." name="attitude" id="livreDonzelle" /><label for="livreDonzelle">Je livre les donzelles en patture aux brigands.</label><br />
+				<input type="radio" value="Je me jette à leurs pieds en les suppliant qu'ils épargnent ma vie." name="attitude" id="supplie" /><label for="supplie">Je me jette à leurs pieds en les suppliant qu'ils épargnent ma vie.</label><br />
+				<input type="radio" value="Je leur fait comprendre que l'affrontement n'est pas nécessaire et qu'on pourra sûrement trouver une solution à ce problème." name="attitude" id="comprendre" /><label for="comprendre">Je leur fait comprendre que l'affrontement n'est pas nécessaire et qu'on pourra sûrement trouver une solution à ce problème.</label><br />
+				<label for="caractere" class="questions">Vous savez que vous allez prochainement vous lancer dans une longue quête. Qu'emportez-vous dans vos affaires en premier?</label><br />
+				<input type="radio" value="Une bonne bouteille de la région" name="caractere" id="caractere" /><label for="caractere">Une bonne bouteille de la région</label><br />
+				<input type="radio" value="Le sabre de mon père" name="caractere" id="sabre" /><label for="sabre">Le sabre de mon père</label><br />
+				<input type="radio" value="Une boussole et une carte" name="caractere" id="boussole" /><label for="boussole">Une boussole et une carte</label><br />
+				<input type="radio" value="Rififi, votre petit dragonneau apprivoisé" name="caractere" id="rififi" /><label for="rififi">Rififi, votre petit dragonneau apprivoisé</label><br />
+				<label for="intelligence" class="questions">Vous participez à la grande course à pied annuelle d'Eckmül. Si vous doublez le dernier concurrent, en quelle position arrivez-vous?</label><br />
+				<input type="radio" value="Premier" name="intelligence" id="intelligence" /><label for="intelligence">Premier</label><br />
+				<input type="radio" value="Avant-dernier" name="intelligence" id="avantDernier" /><label for="avantDernier">Avant-dernier</label><br />
+				<input type="radio" value="C'est impossible" name="intelligence" id="impossible" /><label for="impossible">C'est impossible</label><br />
+				<input type="radio" value="Aucune idée" name="intelligence" id="aucuneIdee" /><label for="aucuneIdee">Aucune idée</label><br />
+				<label for="connaissances" class="questions">Comment fait-on pour faire avancer un pétaure?</label><br />
+				<input type="radio" value="On lui frappe violemment le postérieur." name="connaissances" id="connaissances" /><label for="connaissances">On lui frappe violemment le postérieur.</label><br />
+				<input type="radio" value="On chante des chansons grivoises." name="connaissances" id="chansons" /><label for="chansons">On chante des chansons grivoises.</label><br />
+				<input type="radio" value="On lui tire les poiles dans la directions que l'on souhaite prendre." name="connaissances" id="poiles" /><label for="poiles">On lui tire les poils dans la direction que l'on souhaite prendre.</label><br />
+				<input type="radio" value="On laisse courrir devant lui une jeune fille très légèrement vêtue." name="connaissances" id="jeuneFille" /><label for="jeuneFille">On laisse courrir devant lui une jeune fille très légèrement vêtue.</label><br />
+			</fieldset>
+			<fieldset id="commentaire">
+				<legend>Remarque personnelle et commentaires</legend>
+				<textarea name="remarque" rows="8" cols="70" onfocus="javascript:this.value=''">
+					Ecrivez votre message ici...
+				</textarea>
+			</fieldset>
+			<fieldset id="bouton">
+					<input type="submit" name="envoyer" value="Envoie des données" />
+					<input type="reset" name="reset" value="Effacer les données" />
+			</fieldset>
+		</form>
+	</div>
+	<address id="adresse">
+		© texte et images Lanfeust | © design Yann Gouffon eikon | <a href="#principal">haut de la page</a>
+	</address>
+</div>
+</div>
+</body>
+</html>
